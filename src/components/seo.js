@@ -75,7 +75,7 @@ function SEO({ description, lang, meta, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `Not all Karens are terrible. Learn about a few amazing Karens from history.`,
 }
 
 SEO.propTypes = {
