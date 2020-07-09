@@ -3,7 +3,7 @@
   grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
   grid-gap: 1em;
 
-  @media (max-width: 400px) {
+  @media (max-width: 520px) {
     display: block;
 
     .karen {
