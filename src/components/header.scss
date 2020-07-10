@@ -1,0 +1,27 @@
+.siteTitle {
+  margin: 0;
+  padding: 0;
+  font-family: 'Amatic SC', cursive;
+
+  span {
+    font-family: 'Amatic SC', cursive;
+  }
+
+  @for $i from 1 through 20 {
+    span:nth-child(#{$i}) {
+      animation: 200ms fade-in 1 ease-in;
+      animation-delay: $i * 100ms;
+      animation-fill-mode:forwards;
+      opacity: 0;
+    }
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

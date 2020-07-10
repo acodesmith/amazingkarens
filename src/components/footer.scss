@@ -7,8 +7,6 @@ footer.main {
   width: 100%;
 
   @media (max-width: 520px) {
-    display: block;
-
     span:nth-child(2) {
       margin-left: 2rem;
     }

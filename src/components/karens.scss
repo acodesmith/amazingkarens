@@ -11,3 +11,18 @@
     }
   }
 }
+
+.karens-loading {
+  animation: 500ms pulse infinite ease;
+  display: grid;
+  height: 80vh;
+  place-content: center;
+  color: #cd0000;
+  width: 100%;
+}
+
+@keyframes pulse {
+  50% {
+    transform: scale(1.5);
+  }
+}

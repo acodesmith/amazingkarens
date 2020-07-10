@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Karens as KarensComponent } from "../components/Karens";
+import { HelpUsFindKarens } from "../components/HelpUsFindKarens";
 
 const IndexPage = ({
   data: {
@@ -14,6 +15,7 @@ const IndexPage = ({
     <Layout>
       <SEO title="Amazing Karens" />
       <KarensComponent data={Karens} />
+      <HelpUsFindKarens />
     </Layout>
   )
 }
