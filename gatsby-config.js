@@ -39,6 +39,14 @@ module.exports = {
         icon: `src/images/ak-icon.png`, // This path is relative to the root of the site.
       },
     },
+		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				// The property ID; the tracking code won't be generated without it
+				trackingId: "UA-172336172-1",
+				cookieDomain: "amazingkarens.com",
+			},
+		},
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
